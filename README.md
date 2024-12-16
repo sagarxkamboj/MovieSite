@@ -1,2 +1,3 @@
 # MovieSite
-A movie site 
+A movie site with Only Frontend .
+There is no functionality.
