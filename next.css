@@ -1,0 +1,25 @@
+* {
+  background-color: rgb(121, 167, 152);
+}
+
+div {
+  text-align: center;
+
+  color: aliceblue;
+}
+img {
+  margin-left: 40%;
+}
+button {
+  text-align: center;
+  margin-left: 47%;
+  margin-top: 50px;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+}
+a {
+  text-align: center;
+  margin-left: 60%;
+  text-decoration: none;
+}
