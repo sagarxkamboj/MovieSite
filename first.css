@@ -122,8 +122,8 @@ body {
 }
 
 .movie-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  transform: translatey(10px);
+  box-shadow: 0 4px 10px rgba(24, 24, 24, 0.2);
 }
 
 footer {
@@ -137,3 +137,26 @@ footer {
 #iii {
   text-decoration: underline;
 }
+
+#Action {
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  margin-left: 20px;
+  color: aliceblue;
+
+  animation: hii 0.5s ease-in infinite normal; 
+  animation-direction: alternate-reverse;
+}
+
+@keyframes hii {
+  from{
+    left: 0px;
+    color: aliceblue;
+
+  }
+  to{
+    left: 200px;
+    color: #ff4747;
+  }
+ 
