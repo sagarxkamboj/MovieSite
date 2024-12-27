@@ -1,25 +1,78 @@
+:root {
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --button-background: #007bff;
+  --button-height: 50px;
+}
+
 * {
-  background-color: rgb(121, 167, 152);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
 }
 
 div {
   text-align: center;
+  color: var(--text-color);
+  margin: 20px 0;
+}
 
-  color: aliceblue;
-}
 img {
-  margin-left: 40%;
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
 }
+
 button {
-  text-align: center;
-  margin-left: 47%;
-  margin-top: 50px;
-  background-color: black;
-  color: aliceblue;
-  height: 50px;
+  display: block;
+  margin: 50px auto;
+  background-color: var(--button-background);
+  color: white;
+  height: var(--button-height);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+button:hover {
+  background-color: #0056b3;
+}
+
 a {
+  display: block;
   text-align: center;
-  margin-left: 60%;
+  margin: 20px auto;
   text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.2em;
+}
+
+.lily {
+  transition: transform 0.3s linear;
+}
+
+.lily:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 600px) {
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  a {
+    font-size: 1em;
+  }
 }
